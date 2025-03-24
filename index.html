@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mali-CurrencyPro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Tshelede-Converter</h1>
+    <button id="toggle-mode">🌙</button>
+  </header>
+
+  <main>
+    <section class="converter">
+      <div class="form-group">
+        <input type="number" id="amount" placeholder="Enter amount" />
+      </div>
+      <div class="form-group">
+        <select id="from-currency"></select>
+        <span>to</span>
+        <select id="to-currency"></select>
+      </div>
+      <div class="switch-container">
+        <button type="button" id="switch-btn">🔄 Switch</button>
+      </div> 
+      <button id="convert-btn">Convert</button>
+      <div id="result"></div>
+    </section>
+
+    <section class="favorites">
+      <h2>⭐ Favorite Currencies</h2>
+      <ul id="favorites-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by SHUMANI RLUDZINGANA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
