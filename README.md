@@ -21,7 +21,7 @@ To run this project locally on your machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone 
+   git clone https://github.com/Raludzingana98/Currency-Converter.git
 Navigate into the project directory:
 
 bash
@@ -41,7 +41,8 @@ JavaScript: For handling the logic of currency conversion, fetching exchange rat
 
 Currency API (e.g., ExchangeRate-API): For fetching real-time exchange rates.
 
-Future Features
+FUTER FEATURES
+
 Currency Trends & Graphs: Historical exchange rate charts.
 
 Multi-Language Support: Ability to switch languages based on user preferences.
